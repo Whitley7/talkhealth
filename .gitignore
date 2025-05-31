@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Model files (tracked elsewhere, e.g., HF Hub)
+API_app/app/saved_models/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Output & logs
+*.log
+*.out
